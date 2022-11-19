@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #282D35;
+    
+    background-image: url('./images/react-bg.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: cover;
+}
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    padding: 10px 28px;
+    height: 100px;
+}
+
+.reactlogo {
+    width: 60px;
+}
+
+.reactFacts {
+    margin-right: auto;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 22.2535px;
+    letter-spacing: -0.05em;
+    color: #61DAFB;
+}
+
+.reactCourse {
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 19px;
+    color: #DEEBF8;
+}
+
+.main-container {
+    margin-left: 25px;
+}
+
+.main-container>h1 {
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+    letter-spacing: -0.05em;
+    color: white;
+}
+
+
+
+.fact-list>li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color:white;
+}
+
+.fact-list > li::marker{
+    color: #61DAFB;
+    font-size: 1.6rem;
+
 }
